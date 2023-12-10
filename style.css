@@ -1,0 +1,106 @@
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .navbar {
+        background-color: red;
+        color: #ffffff;
+        padding: 1%;
+    }
+    
+    .container {
+        width: auto;
+        height: auto;
+    }
+    
+    .bookcontainer {
+        margin: 5%;
+        width: 20%;
+        padding: 20px;
+        padding-right: 30px;
+        border-radius: 30px;
+        background-color: black;
+        color: white;
+        vertical-align: top;
+        display: inline-block;
+    }
+    
+    .btn {
+        background-color: red;
+        color: white;
+        border-radius: 3px;
+        border: none;
+        height: 40px;
+        width: 100px;
+    }
+    
+    .btn1 {
+        background-color: red;
+        margin-left: 90%;
+        border-radius: 100%;
+        border: none;
+        font-size: 50px;
+        width: 70px;
+    }
+    
+    .overlay1 {
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        opacity: 0.8;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .popup-box {
+        background-color: red;
+        z-index: 2;
+        padding: 40px;
+        position: absolute;
+        top: 20%;
+        border-radius: 10px;
+        left: 30%;
+        display: none;
+    }
+    
+    .popup-box input {
+        width: 100%;
+        background: transparent;
+        border: none;
+        margin: 5px;
+        padding: 10px;
+        font-size: 20px;
+        border-bottom: 2px solid black;
+    }
+    
+    .popup-box textarea {
+        width: 100%;
+        background: transparent;
+        border: none;
+        margin: 5px;
+        padding: 10px;
+        font-size: 20px;
+        border: 2px solid black;
+    }
+    
+    .popup-box input::placeholder {
+        color: black;
+    }
+    
+    .popup-box textarea::placeholder {
+        color: black;
+    }
+    
+    .popup-box button {
+        color: white;
+        background-color: black;
+        font-size: 30px;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        margin: 5px;
+    }
